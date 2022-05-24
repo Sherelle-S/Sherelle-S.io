@@ -204,6 +204,7 @@ h1, h2, h3, h4, h5, h6 {
   background: url("../img/Greenwich.jpg") top center;
   background-size:cover;
   background-position: 0 60%;
+  padding: 0;
 }
 #hero:before {
   content: "";
