@@ -244,10 +244,16 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 1px;
   border-bottom: 3px solid #149ddd;
 }
+
+@media (max-height: 770px) {
+  #hero{
+    background: rgba(5, 13, 24, 0.65);
+  }
+}
+  
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
-    background-position: -120% 50%;
   }
 }
 @media (max-width: 768px) {
