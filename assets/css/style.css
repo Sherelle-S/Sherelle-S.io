@@ -262,6 +262,17 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 30px;
   }
 }
+@media (orientation: landscape){
+ #hero{
+  background-size: cover;
+  }
+}
+
+@media(max-height: 2436px){
+   #hero:before{
+    bottom:-55
+  }
+}
 
 
 /*--------------------------------------------------------------
